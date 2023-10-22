@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test and check: A first chart with Highcharts</title>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
+    
+</head>
+
+<body>
+
+	<header>
+
+		<h1>The Journalism to Public Relations Pipeline</h1>
+
+		<nav>
+			<ul>
+				<li><a href="#wages">Wage Comparison</a></li>
+				<li><a href="#employment">Employment Overtime</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+<!-- Content Starts Here -->
+
+<!-- Chart 1 -->
+
+<article id="wages">
+    <figure class="highcharts-figure">
+        <div id="wages_chart">
+        </div>
+        <p class="highcharts-description1">
+            Chart illustrating the median annual salaries of journalists and public relations professionals over the past three years.
+        </p>
+    
+        <table id="datatable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>News Analysts, Reporters, and Journalists</th>
+                    <th>Public Relations Specialists</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>2020</th>
+                    <td>49 300</td>
+                    <td>62 810</td>
+                </tr>
+                <tr>
+                    <th>2021</th>
+                    <td>43 370</td>
+                    <td>62 800</td>
+                </tr>
+                <tr>
+                    <th>2022</th>
+                    <td>55 960</td>
+                    <td>67 440</td>
+                </tr>
+            </tbody>
+        </table>
+    </figure>
+
+    <!-- SCRIPTS -->
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+    <!-- Highcharts theme -->
+    <script src="https://code.highcharts.com/themes/sunset.js"></script>
+  
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  
+    <!-- Links to main.js and creates chart  -->
+    <script src="scripts/main.js"></script>
+
+ <!-- Chart 1 End-->
+
+ <section class="text">
+
+	<h2>The Realtionship Between Journalism and PR</h2>
+
+	<p>
+        Journalism and public relations (PR) are two closely related yet distinct majors offered by the University of Florida College of Journalism and Communications. Both rely heavily on writing and communications skills, however, their core objectives differ: Journalists report impartial, accurate information to the public, while PR professionals focus on building and maintaining positive relationships between a client and the client's publics. 
+    </p>
+        
+    <p>
+        Both jobs are essential to the media industry, however, in recent years a large percent of journalists have been switching fields, or “joining the dark side,” to become public relations professionals. This trend is often attributed to the increased job stability, higher earning potential, transferable skills, diverse career opportunities, and a less demanding work environment that the PR sector provides. 
+    </p>
+
+ </section>
+</article> 
+<!-- END WAGES -->
+
+<!-- START OF EMPLOYMENT SECTION -->
+
+<article id="employment">
+    <figure class="highcharts-figure">
+        <div id="employment_chart"> </div>
+            <p class="highcharts-description2">Chart showing the change over time in the number of people employed in journalism versus public relations from 2016 to 2022. 
+        </p>
+    </figure>
+ <!-- SCRIPTS -->
+
+ <script src="https://code.highcharts.com/highcharts.js"></script>
+
+ <!-- Highcharts theme -->
+ <script src="https://code.highcharts.com/themes/sunset.js"></script>
+
+ <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+ <!-- Links to main.js and creates chart  -->
+ <script src="scripts/main.js"></script>
+
+
+
+ <section class="text">
+
+	<h2>Employment in Both Industries Since 2016</h2>
+
+	<p>In 2016, the journalism field employed approximately 45,160 individuals, while public relations had around 226,940 professionals. Since then, journalism has seen a slight relative decline in the number of employed journalists, which can be attributed to shifts in the media landscape, including the digitalization of news and industry-wide layoffs. On the contrary, public relations has been on the rise, with a notable increase in employment. These trends indicate a significant transition within the media industry, explaining why more professionals opt for public relations careers over traditional journalism.  
+    </p>
+        
+ </section>
+</article> 
+
+
+<footer>
+	<p>This was designed by Clare Meyers as an assignment for the University of Florida course <b>Introduction to Web Apps</b>.</p>
+</footer>
+
+</body>
+</html>

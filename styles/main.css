@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;}
+    
+*{
+     box-sizing: inherit;}
+
+header {
+    background: #fcebeb;
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+    margin-left: 1rem;
+    padding: .6rem 1rem;
+}
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+h1 {
+    color: #000;
+}
+
+#wages {
+    background: #FF7F7F;
+    display: flex;
+    align-items: center;
+}
+#employment {
+    background: #FFBD82;
+    display: flex;
+    align-items: center;
+    max-width: 100;
+    padding: 3rem;
+}
+/* --- HIDES CHART 1 TABLE --- */
+
+  #datatable {
+    display: none;}
+
+.highcharts-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.highcharts-description1, .highcharts-description2 {
+    text-align: center;
+}
+
+
+.text {
+    color:#000;
+    padding: .8rem;
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 150%;
+}
+
+footer {
+    background: #000;
+    padding: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+/* --- link pseudo classes --- */
+
+a {
+    color: #000000;
+}
+a:hover {
+    color: #82E8FF;
+}
+
